@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+
+* {
+  margin : 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: blue;
+}
+  
+.hero {
+  height: 100vh; 
+  background-image: url(../img/imagen\ de\ fondo.jpg);
+}
+  
+.hero__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem;
+  padding-bottom: 0;
+}
+
+.hero__header .logo {
+  font-family: 'lumanosimo', cursive;
+}
+
+.hero__header .menu {
+  list-style: none;
+  font-family: 'lumanosimo', cursive;
+  display: flex;
+  gap: 1rem;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
